@@ -1,0 +1,29 @@
+{
+  "name": "react-todo-app",
+  "version": "1.0.0",
+  "description": "dependencies:\r 1 - npm i --save-dev body-parser@1.15.2 express@4.14.0 mongoose@4.7.0 node-restful@0.2.5 pm2@2.1.5 nodemon@1.11.0\r - --save-dev: development version\r - body-parser@1.15.2: body/json analyzer\r - express@4.14.0: web framework / webservices\r - mongoose@4.7.0: connection to mongodb, mapping object/element\r - node-restful@0.2.5: help create webservices\r - pm2@2.1.5: production application launcher\r - nodemon@1.11.0: development application launcher",
+  "main": "src/loader.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production": "pm2 start src/loader.js --name react-todo-app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.0",
+    "node-restful": "^0.2.5",
+    "nodemon": "^1.11.0",
+    "pm2": "^2.1.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.0",
+    "node-restful": "^0.2.5",
+    "nodemon": "^1.11.0",
+    "pm2": "^2.1.5"
+  }
+}

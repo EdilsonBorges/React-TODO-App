@@ -5,7 +5,7 @@ export default class Todo extends Component {
     render() {
         return (
             <div>
-                <PageHeader name='Tasks' small='Insert'></PageHeader>
+                    <PageHeader name='Tasks' small='Insert'></PageHeader>
             </div>
         )
     }

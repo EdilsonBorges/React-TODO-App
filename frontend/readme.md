@@ -8,3 +8,9 @@ dependencies:
 - npm i --save-dev react@15.4.2 react-dom@15.4.2 react-router@3.0.2 axios@0.15.3
 - npm i --save-dev redux@3.6.0 react-redux@5.0.2
 - npm i --save-dev redux-promise@0.5.3
+
+
+#common problemns
+1 - run backend npm run dev (if this does not work, try kill process)
+2 - run mongod as 'mongod' in terminal (check if the process is aready not running)
+3 - in frontend, run 'npm run dev' (check if item 1 and item 2 are correct)
